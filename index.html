@@ -1,741 +1,351 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <!DOCTYPE html>
 <html>
+<head>
+<title>ONE PAGE PORTFOLIO Bootstarp Website Template| Home :: w3layouts</title>
+<link href="./css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link href="./css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--webfont by 360 CDN-->
+<link href='http://fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext' rel='stylesheet'>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/move-top.js"></script>
+<script type="text/javascript" src="./js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+				});
+			});
+		</script>
+</head>
+<body>
+  <!-- header-section-starts -->
+    <div class="header">
+	       <div class="header-top">
+		   <div class="container">
+		       <div class="logo">
+			      <a href=""><img src="./images/logo.png" class="img-responsive" alt="" /></a>
+			   </div>
+			   <div class="top-menu">
+			   <span class="menu"> </span>
+			      <ul>
+				      <li><a href="#aboutus" class="scroll">About Me</a></li>
+					  <li><a href="#work" class="scroll">Work</a></li>
+					  <li><a href="#clients" class="scroll">Clients</a></li>
+					  <li><a href="#contact" class="scroll">Let's talk</a></li>
+					  <div class="clearfix"></div>
+				  </ul>
+			   </div>
+			   <!-- script-for-menu -->
+		<script>
+			$("span.menu").click(function(){
+				$(".top-menu ul").slideToggle("slow" , function(){
+				});
+			});
+		</script>
+		<!-- script-for-menu -->
 
-	<head>
-		<meta charset="UTF-8">
-		<title>奔跑吧兄弟官方指定旅游网站_途牛网</title>
-		<link rel="stylesheet/less" href="less/index.less" />
-		<script type="text/javascript" src="js/less.js"></script>
-	</head>
+			   <div class="clearfix"></div>
+		   </div>
+	   </div>
 
-	<body>
-		<!--头部盒子-->
-		<div class="header">
-			<div class="header_btop">
-				<div class="header_top">
-					<div class="header_top_left">
-						<ul>
-							<li><a href="#">登录</a></li>
-							<li>|</li>
-							<li><a href="#">注册</a></li>
-							<li>
-								<a href="#"><img src="images/logo_1.gif" alt="图片" /></a>
-							</li>
-						</ul>
-					</div>
-					<div class="header_top_right">
-						<ul>
-							<li><a href="#">途牛招聘</a></li>
-							<li><a href="#" class="yellow">企业频道</a></li>
-							<li><a href="#" class="yellow">会员俱乐部</a></li>
-							<li><a href="#">我的订单 </a></li>
-							<li><a href="#">网站地图</a></li>
-							<li>
-								<a href="#"><img src="images/tuniu_05.png" /></a>
-							</li>
-							<li>
-								<a href="#"><img src="images/tuniu_07.png" /></a>
-							</li>
-							<li>
-								<a href="#"><img src="images/tuniu_09.png" /></a>
-							</li>
-						</ul>
-					</div>
-				</div>
+	<div class="index-banner">
+	  <div class="container">
+       	   <div class="wmuSlider example1">
+			   <div class="wmuSliderWrapper">
+				   <article style="position: absolute; width: 100%; opacity: 0;">
+				   	<div class="banner-wrap">
+				   	       <div class="bannertop_box">
+				   		 		<h1>HELLO,<span>I'M YOUR NAME</span></h1>
+								<label>graphic / web / motion designer</label>
+								<p>Slider for your work.pictures yours recent projects or something like that.</p>
+				   		 	    <p>You can put your own stuff such as other text information, images etc. </p>
+							    <p>That's absolutely <span class="bold">free</span> template. Ihope you enjoy it!<span class="bold block">Thank you.</span></p>
+							</div>
+
+				   		 	<div class="banner_right">
+				   		 		<img src="./images/slider-img2.jpg" class="img-responsive" alt="" />
+				   		 	</div>
+				   		 	<div class="clearfix"></div>
+				   	  </div>
+					</article>
+				 </div>
+
+<!--
+				<a class="wmuSliderPrev">Previous</a><a class="wmuSliderNext">Next</a>
+                <ul class="wmuSliderPagination">
+                	<li><a href="#" class="">0</a></li>
+                	<li><a href="#" class="">1</a></li>
+                	<li><a href="#" class="wmuActive">2</a></li>
+                </ul>
+-->
+
+            </div>
+            <script src="./js/jquery.wmuSlider.js"></script>
+			  <script>
+       			$('.example1').wmuSlider({
+                    slideshow: false,
+                    navigationControl: false,
+                    paginationControl: false
+                });
+   		     </script>
+      </div>
+	  </div>
+	  </div>
+  <!-- header-section-ends -->
+  <!-- content-starts -->
+  <div class="content">
+  <!-- about-section-starts -->
+    <div class="about-section" id="aboutus">
+	    <div class="about-section-head text-center">
+		   <div class="container">
+		      <h3>ABOUT ME</h3>
+			  <p>Well, you can write something about yourself. For example, full name,  age, your geolocation and etc. And specific of your work. Maybe your work focused on UI / Web / Graphic or Motion design. I don't know :)</p>
+		   </div>
+		</div>
+		<div class="about-section-grids">
+		    <div class="about-section-top-grid">
+			   <div class="container">
+			       <div class="col-md-3 about-section-top-left-grid">
+				      <h4>Software</h4>
+				   </div>
+				   <div class="col-md-9 about-section-top-right-grid">
+				      <p>Ps | Ai | Id | Ae | Mu | Cinema4d | 3dsMax + Vray</p>
+				   </div>
+				   <div class="clearfix"></div>
+			   </div>
 			</div>
-			<div class="header_search">
-				<div class="logo" style="clear:both;">
-					<a href="#">
-						<img src="images/tuniu_19.png" />
-					</a>
-				</div>
-				<div class="address">
-					<p>北京站</p>
-					<p>本地分公司</p>
-				</div>
-				<div class="search">
-					<div class="select">
-						<select name="lvyou" id="select">
-							<option value="所有产品">所有产品</option>
-							<option value="跟团游">跟团游</option>
-							<option value="自助游">自助游</option>
-							<option value="邮轮">邮轮</option>
-							<option value="景点门票">景点门票</option>
-							<option value="自驾游">自驾游</option>
-							<option value="当地参团">当地参团</option>
-							<option value="当地玩乐">当地玩乐</option>
-							<option value="酒店">酒店</option>
-						</select>
-					</div>
-					<div class="input">
-						<input type="text" name="search" id="search" value="日本" style="color: darkgray" />
-					</div>
-					<div class="img">
-						<a href="#"><img src="images/tuniu_03.png" alt="" /></div>
-					</a>
-				</div>
-				<div class="gaoji"><a href="#">高级搜索</a></div>
-				<div class="tel">
-					<a href="#">
-						<img src="images/tuniu_16.png" />
-					</a>
-				</div>
+			<div class="about-section-middle-grid">
+			   <div class="container">
+			       <div class="col-md-3 about-section-middle-left-grid">
+				      <h4>Skills</h4>
+				   </div>
+				   <div class="col-md-9 about-section-middle-right-grid">
+				      <p>Conceptual thinking | Web | Illustration | Identity | Team work</p>
+				   </div>
+				   <div class="clearfix"></div>
+			   </div>
 			</div>
-			<div class="header_nav">
-				<ul>
-					<li><a href="#">首页</a></li>
-					<li><a href="#">跟团游</a></li>
-					<li><a href="#">自助游</a></li>
-					<li><a href="#">邮轮</a></li>
-					<li><a href="#">自驾</a></li>
-					<li><a href="#">特卖</a></li>
-					<li><a href="#">品质游</a></li>
-					<li><a href="#">门票</a></li>
-					<li><a href="#">酒店</a></li>
-					<li><a href="#">机票</a></li>
-					<li><a href="#">火车票</a></li>
-					<li><a href="#">出游服务</a></li>
-					<li><a href="#">定制游</a></li>
-					<li><a href="#">金融</a></li>
-					<li><a href="#">攻略</a></li>
-				</ul>
+			<div class="about-section-bottom-grid">
+			   <div class="container">
+			       <div class="col-md-3 about-section-bottom-left-grid">
+				      <h4>Hobby</h4>
+				   </div>
+				   <div class="col-md-9 about-section-bottom-right-grid">
+				      <p>Music | Movies | Sport | Art | Photography</p>
+				   </div>
+				   <div class="clearfix"></div>
+			   </div>
 			</div>
 		</div>
-		<div class="banner">
-			<div class="banner_main">
-				<div class="left">
-					<ul>
-						<a href="#">
-							<li><img src="images/tuniu_33.png" alt="/" />
-								<p>度假旅游</p>
-								<div class="dujia">
-									<div class="1">
-										<a href="#"><span>瓜果亲子游</span></a>
-										<a href="#"><span>海岛游</span></a>
-										<a href="#">蜜月</a>
-										<a href="#">免签</a>
-										<a href="#">户外</a>
-										<a href="#">周末游</a>
-									</div>
-									<div class="1">
-										<a href="#"><span>瓜果亲子游</span></a>
-										<a href="#"><span>海岛游</span></a>
-										<a href="#">蜜月</a>
-										<a href="#">免签</a>
-										<a href="#">户外</a>
-										<a href="#">周末游</a>
-									</div>
-									<div class="1">
-										<a href="#"><span>瓜果亲子游</span></a>
-										<a href="#"><span>海岛游</span></a>
-										<a href="#">蜜月</a>
-										<a href="#">免签</a>
-										<a href="#">户外</a>
-										<a href="#">周末游</a>
-									</div>
-									<div class="1">
-										<a href="#"><span>瓜果亲子游</span></a>
-										<a href="#"><span>海岛游</span></a>
-										<a href="#">蜜月</a>
-										<a href="#">免签</a>
-										<a href="#">户外</a>
-										<a href="#">周末游</a>
-									</div>
-									<div class="1">
-										<a href="#"><span>瓜果亲子游</span></a>
-										<a href="#"><span>海岛游</span></a>
-										<a href="#">蜜月</a>
-										<a href="#">免签</a>
-										<a href="#">户外</a>
-										<a href="#">周末游</a>
-									</div>
-									<div class="1">
-										<a href="#"><span>瓜果亲子游</span></a>
-										<a href="#"><span>海岛游</span></a>
-										<a href="#">蜜月</a>
-										<a href="#">免签</a>
-										<a href="#">户外</a>
-										<a href="#">周末游</a>
-									</div>
-									<div class="1">
-										<a href="#"><span>瓜果亲子游</span></a>
-										<a href="#"><span>海岛游</span></a>
-										<a href="#">蜜月</a>
-										<a href="#">免签</a>
-										<a href="#">户外</a>
-										<a href="#">周末游</a>
-									</div>
-									<div class="1">
-										<a href="#"><span>瓜果亲子游</span></a>
-										<a href="#"><span>海岛游</span></a>
-										<a href="#">蜜月</a>
-										<a href="#">免签</a>
-										<a href="#">户外</a>
-										<a href="#">周末游</a>
-									</div>
-									<div class="1">
-										<a href="#"><span>瓜果亲子游</span></a>
-										<a href="#"><span>海岛游</span></a>
-										<a href="#">蜜月</a>
-										<a href="#">免签</a>
-										<a href="#">户外</a>
-										<a href="#">周末游</a>
-									</div>
+	</div>
+	<!-- about-section-ends -->
+	<!-- work-section-starts -->
+	<div class="work-section" id="work">
+	    <div class="container">
+		  <div class="work-section-head text-center">
+		     <h3>WORK</h3>
+		  </div>
+		  <div id="portfoliolist">
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						 <div class="portfolio-wrapper">
+							<a class="lightbox" href="#goofy">
+								   <img src="./images/pic1.jpg" class="img-responsive" alt="" />
+
+								</a>
+								<div class="lightbox-target" id="goofy">
+								<img src="./images/pic1.jpg" class="img-responsive" alt="" />
+								   <a class="lightbox-close" href="#"></a>
 								</div>
-							</li>
-						</a>
-						<a href="#">
-							<li><img src="images/tuniu_33.png" alt="/" />
-								<p>机票</p>
-							</li>
-						</a>
-						<a href="#">
-							<li><img src="images/tuniu_33.png" alt="/" />
-								<p>酒店</p>
-							</li>
-						</a>
-						<a href="#">
-							<li><img src="images/tuniu_33.png" alt="/" />
-								<p>超级自由行</p>
-							</li>
-						</a>
-						<a href="#">
-							<li><img src="images/tuniu_33.png" alt="/" />
-								<p>火车票</p>
-							</li>
-						</a>
-						<a href="#">
-							<li><img src="images/tuniu_33.png" alt="/" />
-								<p>邮轮 签证</p>
-							</li>
-						</a>
-						<a href="#">
-							<li><img src="images/tuniu_33.png" alt="/" />
-								<p>门票 玩乐</p>
-							</li>
-						</a>
-					</ul>
-				</div>
-				<div class="center">
-					<img src="images/banner.png" alt="" />
-				</div>
-				<div class="right">
-					<div class="top">
-						<img src="images/tuniu_30.png" alt="" />
-						<div>
-							<p>出游人数：<span>28700000+</span></p>
-							<p>点评人数：<span>2400000+</span></p>
-						</div>
-						<p>
-							<a href="#">[端午]巴厘岛5晚7日半游东航直飞，星级酒店,私人沙滩，0投诉</a>
-						</p>
-						<p>
-							<span class="span">用户***911</span>
-							<span>12小时前预定</span>
-						</p>
-					</div>
-					<a href="#"><img src="images/1_03.png" alt="" /></a>
-					<div class="hot">
-						<div class="hot_title">
-							<span>当前热点</span>
-						</div>
-						<div class="hot_main">
-							<a href="#">上海迪士尼乐园</a>
-							<a href="#">日本</a>
-							<a href="#">欧洲</a>
-							<a href="#">巴厘岛</a>
-						</div>
-						<div class="hot_img">
-							<a href="#"><img src="images/tuniu_41.png" /></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--主要内容区域-->
-		<div class="main">
-			<!--主要内容区域最上面一行（超值特卖……）-->
-			<div class="main_top">
-				<!--超值特卖，旅游分期……部分-->
-				<div class="main_top_left">
-					<div class="top">
-						<ul>
-							<li><a href="#">超值特卖</a></li>
-							<li><a href="#">旅游分期</a></li>
-							<li><a href="#">特价机票</a></li>
-							<li><a href="#">特价酒店</a></li>
-						</ul>
-						<div><a href="#">更多 ></a></div>
-					</div>
-					<div class="img">
-						<a href="#"><img src="images/images/tuniu_03.png" /></a>
-						<a href="#"><img src="images/images/tuniu_05.png" /></a>
-						<a href="#"><img src="images/images/tuniu_07.png" /></a>
-						<a href="#"><img src="images/images/tuniu_09.png" /></a>
-					</div>
-				</div>
-				<!--右侧发现活动部分-->
-				<div class="main_top_right">
-					<div class="title">
-						<p>发现·活动</p>
-					</div>
-					<div class="right_main">
-						<a href="#">【爆款】天津直飞日本 包机3299元起</a >
-						<a href="#">【酒店】海外酒店钜惠 香港酒店0元住</a >
-						<a href="#">【发现】大美新疆 异域风情 摄影天堂 </a >
-						<a href="#">【活动】包艇玩转普吉 最高立减500元</a >
-						<a href="#">【邮轮】旺季提前GO 惊爆价999元起</a >
-					</div>
-				</div>
-			</div>
-			<!--下方大区域内容-->
-			<div class="main_big">
-				<div class="main_left">
-					<div class="left_first">
-						<div class="top">
-							<h2>当季热卖</h2>
-							<ul>
-								<li><a href="#">出境长线</a></li>
-						<li><a href="#">出境短线</a></li>
-						<li><a href="#">出境自助</a></li>
-						<li><a href="#">海岛/邮轮</a></li>
-						<li><a href="#">国内跟团</a></li>
-						<li><a href="#">国内自助</a></li>
-						<li><a href="#">周边/自驾</a></li>
-						</ul>
-					</div>
-					<div class="first_main">
-						<div class="left">
-							<ul>
-								<li><a href="#">奔跑吧兄弟 第2人半价</a></li>
-								<li><a href="#">上海迪士尼 套餐任你选</a></li>
-								<li><a href="#">5月出发 国内游59元起</a></li>
-							</ul>
-							<a href="#"><img src="images/images/rw6.png" /></a>
-						</div>
-						<div class="right">
-							<a href="#"><img src="images/images/tuniu_03 (2).png" /></a>
-						</div>
-					</div>
-				</div>
-				<div class="left_second">
-					<div class="second_header">
-						<h2>出境长游</h2>
-						<ul>
-							<li><a href="#">精选</a></li>
-							<li><a href="#">欧洲</a></li>
-							<li><a href="#">美洲</a></li>
-							<li><a href="#">中东非</a></li>
-							<li><a href="#">澳新</a></li>
-							<li><a href="#">马代</a></li>
-							<li><a href="#">海岛</a></li>
-						</ul>
-						<div><a href="#">更多产品&gt;</a></div>
-					</div>
-					<ul class="second_main">
-						<div class="second_left">
-							<h4>热点景点玩法</h4>
-							<ul>
-								<li><a href="#">法瑞意</a></li>
-								<li><a href="#">黄石公园</a></li>
-								<li><a href="#">澳新连线</a></li>
-								<li><a href="#">肯尼亚动物迁徙</a></li>
-								<li><a href="#">马尔代夫</a></li>
-								<li><a href="#">毛里求斯</a></li>
-							</ul>
-							<a href="#"><img src="images/images/C6.jpg" /></a>
-						</div>
-						<div class="second_right">
-							<a href="#"><img src="images/images/tuniu_03 (3).png" /></a>
-						</div>
-					</ul>
-				</div>
-				<div class="left_second">
-					<div class="second_header">
-						<h2>出境短线</h2>
-						<ul>
-							<li><a href="#">精选</a></li>
-							<li><a href="#">泰国</a></li>
-							<li><a href="#">日韩</a></li>
-							<li><a href="#">海岛</a></li>
-							<li><a href="#">东南亚</a></li>
-							<li><a href="#">越柬南亚</a></li>
-							<li><a href="#">港澳台</a></li>
-						</ul>
-						<div><a href="#">更多产品&gt;</a></div>
-					</div>
-					<ul class="second_main">
-						<div class="second_left">
-							<h4>热门目的地</h4>
-							<ul>
-								<li><a href="#">曼谷</a></li>
-								<li><a href="#">普吉岛</a></li>
-								<li><a href="#">巴厘岛</a></li>
-								<li><a href="#">本州</a></li>
-								<li><a href="#">首尔</a></li>
-								<li><a href="#">新加坡</a></li>
-							</ul>
-							<a href="#"><img src="images/images/D8.jpg" /></a>
-						</div>
-						<div class="second_right">
-							<a href="#"><img src="images/images/tuniu_03 (3).png" /></a>
-						</div>
-					</ul>
-				</div>
-				<div class="left_second">
-					<div class="second_header">
-						<h2>国内旅游</h2>
-						<ul>
-							<li><a href="#">精选</a></li>
-							<li><a href="#">三亚</a></li>
-							<li><a href="#">云南</a></li>
-							<li><a href="#">华东</a></li>
-							<li><a href="#">厦门/广西</a></li>
-							<li><a href="#">川藏</a></li>
-							<li><a href="#">内蒙</a></li>
-						</ul>
-						<div><a href="#">更多产品&gt;</a></div>
-					</div>
-					<ul class="second_main">
-						<div class="second_left">
-							<h4>热门景点玩法</h4>
-							<ul>
-								<li><a href="#">蜈支洲岛</a></li>
-								<li><a href="#">西双版纳</a></li>
-								<li><a href="#">鼓浪屿</a></li>
-								<li><a href="#">九寨沟</a></li>
-								<li><a href="#">北海</a></li>
-								<li><a href="#">故宫</a></li>
-							</ul>
-							<ul>
-								<li><a href="#">三亚</a></li>
-								<li><a href="#">丽江</a></li>
-								<li><a href="#">厦门</a></li>
-								<li><a href="#">四川</a></li>
-								<li><a href="#">桂林</a></li>
-								<li><a href="#">北京</a></li>
-							</ul>
-							<a href="#"><img src="images/images/G11.jpg" /></a>
-						</div>
-						<div class="second_right">
-							<a href="#"><img src="images/images/tuniu_03 (3).png" /></a>
-						</div>
-					</ul>
-				</div>
-				<div class="left_second">
-					<div class="second_header">
-						<h2>周边旅游</h2>
-						<ul>
-							<li><a href="#">精选</a></li>
-							<li><a href="#">海滨漂流</a></li>
-							<li><a href="#">高铁出游</a></li>
-							<li><a href="#">初夏山水</a></li>
-							<li><a href="#">人文山西</a></li>
-							<li><a href="#">京郊游</a></li>
-							<li><a href="#">城市</a></li>
-						</ul>
-						<div><a href="#">更多产品&gt;</a></div>
-					</div>
-					<ul class="second_main">
-						<div class="second_left">
-							<h4>热门玩法</h4>
-							<ul>
-								<li><a href="#">五台山</a></li>
-								<li><a href="#">名山胜水</a></li>
-								<li><a href="#">一日游</a></li>
-								<li><a href="#">木兰围场</a></li>
-								<li><a href="#">三日游</a></li>
-								<li><a href="#">毛里求斯</a></li>
-							</ul>
-							<a href="#"><img src="images/images/Z10.jpg" /></a>
-						</div>
-						<div class="second_right">
-							<a href="#"><img src="images/images/tuniu_03 (3).png" /></a>
-						</div>
-					</ul>
-				</div>
-				<div class="left_second">
-					<div class="second_header">
-						<h2>主题旅游</h2>
-						<ul>
-							<li><a href="#">海岛</a></li>
-							<li><a href="#">周末游</a></li>
-							<li><a href="#">亲子</a></li>
-							<li><a href="#">蜜月</a></li>
-							<li><a href="#">免签</a></li>
-						</ul>
-						<div><a href="#">更多产品&gt;</a></div>
-					</div>
-					<ul class="second_main">
-						<div class="second_left">
-							<h4>热门主题玩法</h4>
-							<ul>
-								<li><a href="#">海滨海岛</a></li>
-								<li><a href="#">蜜月度假</a></li>
-								<li><a href="#">游乐园</a></li>
-								<li><a href="#">名山胜水</a></li>
-								<li><a href="#">免签出境</a></li>
-								<li><a href="#">婚纱摄影</a></li>
-							</ul>
-							<a href="#"><img src="images/images/ZT3.jpg" /></a>
-						</div>
-						<div class="second_right">
-							<a href="#"><img src="images/images/tuniu_03 (3).png" /></a>
-						</div>
-					</ul>
-				</div>
-				<div class="left_second">
-					<div class="second_header">
-						<h2>自助旅游</h2>
-						<ul>
-							<li><a href="#">日韩</a></li>
-							<li><a href="#">东南亚</a></li>
-							<li><a href="#">海岛</a></li>
-							<li><a href="#">欧美澳新</a></li>
-							<li><a href="#">国内</a></li>
-						</ul>
-						<div><a href="#">更多产品&gt;</a></div>
-					</div>
-					<ul class="second_main">
-						<div class="second_left">
-							<ul>
-								<li><a href="#">马尔代夫</a></li>
-								<li><a href="#">三亚</a></li>
-								<li><a href="#">普吉岛</a></li>
-								<li><a href="#">巴厘岛</a></li>
-								<li><a href="#">首尔</a></li>
-								<li><a href="#">大阪</a></li>
-							</ul>
-							<a href="#"><img src="images/images/ZZ4.jpg" /></a>
-						</div>
-						<div class="second_right">
-							<a href="#"><img src="images/images/tuniu_03 (3).png" /></a>
-						</div>
-					</ul>
-				</div>
-			</div>
-			<div class="main_right">
-				<div class="right_first">
-					<a href="#"><img src="images/images/Cii9EVcUfMaIC_WYAAAszp5yeT4AADVzQJmKWMAACzm77.jpeg" /></a>
-					<a href="#"><img src="images/images/Cii9EFcwZcqIcOPYAAAygA3PrgMAAFVcgPjQcUAADKY82.jpeg" /></a>
-					<a href="#"><img src="images/images/Cii9EFa0YZGIFA3xAAAdJssQCTcAAByHgH3OEkAAB0-39.jpeg" /></a>
-					<a href="#"><img src="images/images/Cii9EVcwZkaIIraVAAAoKMqNdCMAAFVdAMooZkAAChA05.jpeg" /></a>
-					<a href="#"><img src="images/images/Cii9EFcsZ5mIb9P4AAAoDzjUQwoAAFTAwP9DlAAACgn121.png" /></a>
-				</div>
-				<div class="right_second">
-					<a href="#"><img src="images/images/1.jpeg" /></a>
-					<a href="#"><img src="images/images/2.jpeg" /></a>
-					<a href="#"><img src="images/images/3.jpeg" /></a>
-					<a href="#"><img src="images/images/4.jpeg" /></a>
-					<a href="#"><img src="images/images/5.jpeg" /></a>
-					<a href="#"><img src="images/images/6.jpeg" /></a>
-				</div>
-			</div>
-		</div>
-		</div>
-		<div class="footer">
-			<div class="footer_nav">
-				<div class="nav_box">
-					<ul>
-						<li class="nav_first">
-							<i class="first_i"></i>
-							<dl>
-								<dt>去旅游</dt>
-								<dd>
-									<p>
-										<a href="#">跟团游</a><a href="#">自助游</a><a href="#">自驾游</a>
-									</p>
-									<p>
-										<a href="#">海岛游</a><a href="#">机票</a><a href="#">邮轮</a>
-									</p>
-									<p>
-										<a href="#">门票</a><a href="#">亲了游</a><a href="#">签证</a>
-									</p>
-									<p>
-										<a href="#">机票+酒店</a><a href="#">蜜月游</a><a href="#">酒店</a>
-									</p>
-									<p>
-										<a href="#">老于推荐</a><a href="#">公司旅游</a><a href="#">牛人专线</a>
-									</p>
-									<p>
-										<a href="#">首付出发</a>
-									</p>
-								</dd>
-							</dl>
-						</li>
-						<li>
-							<i class="second_i"></i>
-							<dl>
-								<dt>寻优惠</dt>
-								<dd>
-									<p>
-										<a href="#">特卖</a>
-									</p>
-									<p>
-										<a href="#">订酒店返现金</a>
-									</p>
-									<p>
-										<a href="#">一元夺宝</a>
-									</p>
-									<p>
-										<a href="#">银行特惠游</a>
-									</p>
-									<p>
-										<a href="#">银行分期游</a>
-									</p>
-								</dd>
-							</dl>
-						</li>
-						<li>
-							<i class="third_i"></i>
-							<dl>
-								<dt>看攻略</dt>
-								<dd>
-									<p>
-										<a href="#">攻略</a>
-									</p>
-									<p>
-										<a href="#">途牛风向标</a>
-									</p>
-									<p>
-										<a href="#">社区</a>
-									</p>
-									<p>
-										<a href="#">游记</a>
-									</p>
-								</dd>
-							</dl>
-						</li>
-						<li class="nav_fivth">
-							<i class="fourth_i"></i>
-							<dl>
-								<dt>查服务</dt>
-								<dd>
-									<p>
-										<a href="#">帮助中心</a>
-									</p>
-									<p>
-										<a href="#">积分俱乐部</a>
-									</p>
-									<p>
-										<a href="#">阳光保障</a>
-									</p>
-									<p>
-										<a href="#">火车时刻表</a>
-									</p>
-									<p>
-										<a href="#">天气预报</a>
-									</p>
-									<p>
-										<a href="#">地铁路线图</a>
-									</p>
-								</dd>
-							</dl>
-						</li>
-						<li class="nav_last">
-							<i class="fivth_i"></i>
-							<dl>
-								<dt>途牛APP</dt>
-								<dd>
-									<p>
-										<a href="#">扫描途牛APP</a>
-									</p>
-									<p>
-										<img src="images/Cii9EFZmiXGIHjetAAAWy1znY7MAAA4sgP_6NEAABcv997.jpg" alt="" />
-									</p>
-								</dd>
-							</dl>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="footer_banner">
-				<a class="footer_banner_main" href="#">
-					<span>4007-999-999</span>
-				</a>
-			</div>
-			<div class="footer_img4">
-				<a href="#"><img src="images/tn_footer_01.jpg" /></a>
-				<a href="#"><img src="images/tn_footer_042.jpg" /></a>
-				<a href="#"><img src="images/tn_footer_06.jpg" /></a>
-				<a href="#"><img src="images/Cii9EFaWDQ2IFdVUAAAaUoTPAnAAABcxwP_x9YAABpq60.jpeg" /></a>
-				<a href="#"><img src="images/tn_footer_05l_007.jpg" / style="width: 990px;"></a>
-			</div>
-			<div class="footer_text">
-				<p>途牛客服中心位于南京市 来电显示为 025-86859999或85080000</p>
-				<p>北京途牛国际旅行有限公司，旅行者业务经营许可证编号：L-BJ-CJ00144&nbsp;&nbsp;&nbsp;上海途牛国际旅行社有限公司，旅行社业务经营许可证编号： L-SH-CJ00107</p>
-				<p><a href="#">关于我们</a><a href="#">Investor Relations</a><a href="#">联系我们</a><a href="#">投诉建议</a><a href="#">广告服务</a><a href="#">旅游券</a><a href="#" class="redword">途牛招聘</a><a href="#">隐私保护</a><a href="#">免责声明</a><a href="#">旅游度假资质</a><a href="#">主题旅游</a>
-					<a
-						href="#">用户协议</a><a href="#">网站地图</a><a href="#">UEIP</a><a href="#">帮助中心</a></p>
-				<p>Copyright © 2006-2016 南京途牛科技有限公司 Tuniu.com | 营业执照 | ICP证：苏B2-20130006 | 苏ICP备12009060号 | 北京旅游网</p>
-			</div>
-			<div class="footer_img3">
-				<a href="#"><img src="images/footer_1.jpg" /></a>
-				<a href="#"><img src="images/footer_2.jpg" /></a>
-				<a href="#"><img src="images/bottom.jpg" /></a>
-			</div>
-			<div class="footer_gundong">
-				<p>最新预订：[3小时前]用户***萌预订
-					<曼谷-苏梅机票+当地6或7日游>2人起铁发 苏梅龟岛一日游 天使之城 无自费 [26小时前]用户***喃预订[端午]
-						<斯里兰卡雅拉国家公园7日或8日游>牛 </p>
-			</div>
-			<div class="link_img">
-				<a href="#"><img src="nn/1.png" /></a>
-				<a href="#"><img src="nn/2.png" /></a>
-				<a href="#"><img src="nn/3.png" /></a>
-				<a href="#"><img src="nn/4.png" /></a>
-				<a href="#"><img src="nn/5.png" /></a>
-				<a href="#"><img src="nn/6.png" /></a>
-				<a href="#"><img src="nn/7.png" /></a>
-				<a href="#"><img src="nn/8.png" /></a>
-				<a href="#"><img src="nn/9.png" /></a>
-			</div>
-			<div class="youlian">
-				<p>友情链接： 笛风假期途牛微博客网易旅游中国经济网旅游百度旅游人民网旅游中国制造网51766旅游网成都青年旅行社欣欣旅游网驴妈妈旅游网奇艺旅游拉拉勾旅游网米胖旅游网百程旅行网新疆旅游酷讯旅游 wed114结婚网新通留学网二手车中国签证资讯网19楼</p>
-			</div>
-		</div>
-		<div class="rightborder">
-			<ul>
-				<li class="one">
-					<a href="#"><img src="images/images/7.jpeg" /></a>
-					<a href="#" id="licai"><img src="images/images/7_1.jpeg" /></a>
-				</li>
-				<li class="two">
-					<div class="app">
-						<a href="#">
-							<img src="images/images/head_qrcode_20160405.png"/>
-						</a>
-					</div>
-					<div class="mytuniu">
-						<a href="#"></a>
-						<p>我的途牛</p>
-					</div>
-					<div class="guanzhu">
-						<a href="#"></a>
-					</div>
-					<div class="dingdan">
-						<a href="#"></a>
-					</div>
-					<div class="quan">
-						<a href="#"></a>
-					</div>
-					<div class="xiaoxi">
-						<a href="#"></a>
-					</div>
-					<div class="blank"></div>
-					<div class="wenjuan">
-						<a href="#"></a>
-					</div>
-					<div class="yijian">
-						<a href="#"></a>
-					</div>
-					<div class="dingbu">
-						<a href="#"></a>
-					</div>
-					
-				</li>
-			</ul>
-		</div>
-	</body>
+						 </div>
 
+					</div>
+					<div class="portfolio app mix_all" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">
+							<a class="lightbox" href="#goofy">
+								   <img src="./images/pic2.jpg" class="img-responsive" alt="" />
+
+								</a>
+					    </div>
+					</div>
+					<div class="portfolio web mix_all" data-cat="web" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">
+							<a class="lightbox" href="#goofy">
+								   <img src="./images/pic3.jpg" class="img-responsive" alt="" />
+
+								</a>
+
+					</div>
+</div>
+					<div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">
+							<a class="lightbox" href="#goofy">
+								   <img src="./images/pic4.jpg" class="img-responsive" alt="" /><div class="b-wrapper">
+						  	</div>
+								</a>
+					    </div>
+
+					</div>
+					<div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">
+							<a class="lightbox" href="#goofy">
+								   <img src="./images/pic5.jpg" class="img-responsive" alt="" />
+
+								</a>
+					    </div>
+
+					</div>
+					<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">
+							<a class="lightbox" href="#goofy">
+								   <img src="./images/pic6.jpg" class="img-responsive" alt=""/>
+								</a>
+					    </div>
+					</div>
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">
+							<a class="lightbox" href="#goofy">
+								   <img src="./images/pic7.jpg" class="img-responsive" alt=""/>
+								</a>
+					    </div>
+					</div>
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">
+							<a class="lightbox" href="#goofy">
+								   <img src="./images/pic8.jpg" class="img-responsive" alt=""/>
+								</a>
+					    </div>
+					</div>
+					<div class="portfolio icon mix_all" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">
+							<a class="lightbox" href="#goofy">
+								   <img src="./images/pic9.jpg" class="img-responsive" alt=""/>
+								</a>
+					    </div>
+						</div>
+<div class="clearfix"></div>
+				</div>
+		  <div class="clearfix"></div>
+		  <span class="more">MORE ON <a href="#">BEHANCE</a></span>
+
+		  </div>
+		  </div>
+		  <!-- script-for-portfolio -->
+		  <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+	<!-- work-section-ends -->
+	<!-- clients-section-starts -->
+	   <div class="clients-section" id="clients">
+	      <div class="container">
+		    <div class="clients-section-head text-center">
+			   <h3>CLIENTS</h3>
+			</div>
+			<div class="clients-section-grids text-center">
+			   <div class="col-md-4 client-section-grid">
+			    <img src="./images/client1.png" alt="" />
+			 </div>
+			 <div class="col-md-4 client-section-grid">
+			    <img src="./images/client2.png" alt="" />
+			 </div>
+			 <div class="col-md-4 client-section-grid">
+			    <img src="./images/client3.png" alt="" />
+			 </div>
+			 <div class="clearfix"></div>
+			 <div class="col-md-4 client-section-grid">
+			    <img src="./images/client2.png" alt="" />
+			 </div>
+			 <div class="col-md-4 client-section-grid">
+			    <img src="./images/client3.png" alt="" />
+			 </div>
+			 <div class="col-md-4 client-section-grid">
+			    <img src="./images/client1.png" alt="" />
+			 </div>
+			 <div class="clearfix"></div>
+			 <div class="col-md-4 client-section-grid">
+			    <img src="./images/client3.png" alt="" />
+			 </div>
+			 <div class="col-md-4 client-section-grid">
+			    <img src="./images/client1.png" alt="" />
+			 </div>
+			 <div class="col-md-4 client-section-grid">
+			    <img src="./images/client2.png" alt="" />
+			 </div>
+			 <div class="clearfix"></div>
+			</div>
+		  </div>
+	   </div>
+	<!-- clients-section-ends -->
+	</div>
+	<!-- contact-section-starts -->
+	<div class="contact-section" id="contact">
+	<div class="container">
+	    <div class="contact-section-head text-center">
+		   <h3>LET'S TALK</h3>
+		</div>
+		<div class="comments-area">
+		    <form>
+			   <p>
+			   <label>YOUR NAME</label>
+			   <input type="text" value="" >
+			   </p>
+			   <p>
+			   <label>YOUR EMAIL</label>
+			   <input type="text" value="" >
+			   </p>
+			   <p>
+			   <label>YOUR MESSAGE</label>
+			   <textarea></textarea>
+			   </p>
+			   <div class="submit">
+			     <input type="submit" value="submit">
+			   </div>
+			</form>
+		</div>
+		<div class="social-icons">
+		  <a href="#"><i class="behance-icon"></i></a>
+		  <a href="#"><i class="dribble-icon"></i></a>
+		  <a href="#"><i class="linkein-icon"></i></a>
+		  <a href="#"><i class="vimeo-icon"></i></a>
+		  <a href="#"><i class="twitter-icon"></i></a>
+		  <a href="#"><i class="facebook-icon"></i></a>
+		  <a href="#"><i class="skype-icon"></i></a>
+		</div>
+	</div>
+	</div>
+	<!-- contact-section-ends -->
+  <!-- content-ends -->
+     <!-- footer-->
+	<div class="footer">
+		<div class="container">
+			<div class="copyright">
+				<p>&copy; 2014 Template by <a href="http://w3layouts.com" target="target_blank">W3layouts</a></p>
+			</div>
+		</div>
+	</div>
+    <!-- footer-->
+   <script type="text/javascript">
+						$(document).ready(function() {
+							$().UItoTop({ easingType: 'easeOutQuart' });
+
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</body>
 </html>
