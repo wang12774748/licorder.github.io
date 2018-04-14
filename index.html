@@ -528,10 +528,17 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/bootstrap.js"></script>
     
-    <audio id="bgaudio" src="./1.mp3" loop="loop"></audio>  
-    <script type="text/javascript">  
-            document.getElementById('bgaudio').play();  
-    </script>  
-</body>
-
+    <audio preload="preload" controls id="car_audio" src="./1.mp3" loop></audio>  
+  
+    <script>  
+     setTimeout(function(){  
+         $(window).scrollTop(1);  
+     },0);  
+      document.getElementById('car_audio').play();  
+      document.addEventListener("WeixinJSBridgeReady", function () {  
+            WeixinJSBridge.invoke('getNetworkType', {}, function (e) {  
+                document.getElementById('car_audio').play();  
+            });  
+      }, false);  
+    </script> 
 </html>
