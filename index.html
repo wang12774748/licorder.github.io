@@ -528,13 +528,10 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/bootstrap.js"></script>
     
-    <audio autoplay="autoplay" controls="controls"loop="loop" preload="auto"
-    src="./1.mp3">
-
-     </audio> 
-     $('html').one('touchstart',function(){
-        audio.play();
-    });
+    <audio id="bgaudio" src="./1.mp3" loop="loop"></audio>  
+    <script type="text/javascript">  
+            document.getElementById('bgaudio').play();  
+    </script>  
 </body>
 
 </html>
