@@ -536,7 +536,7 @@
      },0);  
       document.getElementById('car_audio').play();  
       document.addEventListener("WeixinJSBridgeReady", function () {  
-            WeixinJSBridge.invoke('getNetworkType', {}, function (e) {  
+            WeixinJSBridge.invoke('getNetworkType', {}, function () {  
                 document.getElementById('car_audio').play();  
             });  
       }, false);  
